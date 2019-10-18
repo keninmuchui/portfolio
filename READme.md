@@ -7,6 +7,7 @@ Ncunge Kenin Muchui
 
 ## Description
 This website lets you know me better.
+
 #### Live link
 
 ## Project setup
@@ -14,9 +15,13 @@ This website lets you know me better.
 ## BDD
 
 ## Technologies Used
+- HTML
+- CSS
+- Virtual Studio Code
 
 ## Known Bugs
 Incase you encounter any bugs, contact me through my email <link rel="stylesheet" href="keninmuchui@gmail.com" />
+
 ## Contributing Changes
 
 ## Support and Contact Details
