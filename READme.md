@@ -25,7 +25,7 @@ Incase you encounter any bugs, contact me through my email <link rel="stylesheet
 ## Contributing Changes
 
 ## Support and Contact Details
-
+You can contact me through my email: keninmuchui@gmail.com
 ## License
 The MIT License
 

@@ -61,21 +61,3 @@ header{
 .li{
     margin: 0.2rem;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-    background: linear-gradient(top, #ffe838 #fd57bf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.top-nav.open{
-    top: 0;
-    border-radius: initial;
-}
-
-.menu-toggler{
-    position: absolute;
-    top: 5rem;
-    
-}
