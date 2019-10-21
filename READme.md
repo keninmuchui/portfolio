@@ -1,17 +1,17 @@
 # My Portfolio Website
 
 ## Author:
-Ncunge Kenin Muchui
+This Portfolio website is made by Ncunge Kenin Muchui
 
 ## Screenshots
 
 ## Description
-This website lets you know me better.
+This website lets you know me better
 
 #### Live link
 
 ## Project setup
-
+-Run on any web browser
 ## BDD
 
 ## Technologies Used

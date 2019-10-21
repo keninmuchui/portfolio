@@ -9,74 +9,54 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   </head>
   <body>
-    <header>
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
-      </div>
+    <header> 
       <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="index.html" class="nav-link">HOME</a>
-          </li>
-          <li>
-            <a href="about" class="nav-link">ABOUT</a>
-          </li>
-          <li>
-            <a href="projects" class="nav-link">PROJECTS</a>
-          </li>
-          <li>
-            <a href="#contacts" class="nav-link">CONTACTS</a>
-          </li>
-        </ul>
+        <a href="#" class="bar-item button padding-large black">
+          <i class="fa fa-home xxlarge"></i>
+          <p>HOME</p>
+        </a>
+        <a href="#about" class="bar-item button padding-large hover-black">
+          <i class="fa fa-user xxlarge"></i>
+          <p>ABOUT</p>
+        </a>
+        <a href="#projects" class="bar-item button padding-large hover-black">
+          <i class="fa fa-eye xxlarge"></i>
+          <p>PROJECTS</p>
+        </a>
+        <a href="#contact" class="bar-item button padding-large hover-black">
+          <i class="fa fa-envelope xxlarge"></i>
+          <p>CONTACT</p>
+    
       </nav>
       <div class="landing-text">
         <h1>KENIN MUCHUI</h1>
         <h6>WEB DEVELOPER</h6>
-      </div>
+      </div>     
       <div class="profile-img">
-        <img src="images/profile.jpg" alt="" />
+          <img src="images/profile.jpg" alt="" width="400px">
+        </div>    
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-details">
+       
+      <div class="about-heading">
+        <h1>About</h1>
+        <h6>MYSELF</h6>
       </div>
-      <a href="about.html">ABOUT</a>
+      <P>
+        Hello. I am Ncunge Kenin Muchui. A teacher by profession. I yearn to
+        <br />become a professional web designer and web developer too.<br>Designing and creating websites eminating from unique creativity is <br>one of my lacking skills but I'm convinced I will teach myself to the point of teaching others.
+       </P>
+        
+    </div>
+  </div>
+</section>
     </header>
-       <div class="social-media">
-          <ul class="nav-list">
-            <li>
-              <a href="#" class="icon-link">
-                <i
-                  class="fa fa-facebook-official" 
-                  style="font-size:36px;color: blue;"
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="icon-link">
-                <i
-                  class="fa fa-twitter-square"
-                  style="font-size:36px;color: lightblue;"
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="icon-link">
-                <i
-                  class="fa fa-instagram"
-                  style="font-size:36px;color: tomato;"
-                ></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
-    <section class="projects" id="projects">
+    <section class="projects">
       <div class="container">
         <div class="section-heading">
           <h1>Projects</h1>
@@ -84,21 +64,37 @@
         </div>
         <div class="My-work">
           <div class="Work">
-            <div class="icon-container">
-              <i
-                class="fas fa-layer-group"
-                style="font-size:36px;color: black;"
-              ></i>
-            </div>
+            <a href="https://Tribute-page.github.io/keninmuchui"></a>
+
           </div>
         </div>
       </div>
     </section>
-<footer class="copyright">
-    <div class="up" id="up">
+<footer>
+<div class="padding-64 content text-grey" id="contact">
+    <h2 class="text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="opacity">
+
+    <div class="section">
+      <p><i class="fa fa-map-marker fa-fw text-white xxlarge margin-right"></i> Nairobi, Kenya</p>
+      <p><i class="fa fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: +254748726260</p>
+      <p><i class="fa fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: keninmuchui@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch:</p>
+  
+  </div>
+
+  <footer class="social-media">
+    <i class="fa fa-facebook-official hover-opacity"></i>
+    <i class="fa fa-instagram hover-opacity"></i>
+    <i class="fa fa-twitter hover-opacity"></i>
+    
+    <div class="copyright">
             <i class='fas fa-chevron-up' style='font-size:24px'></i>
             <p>&copy; 2019 Kenin Muchui</p>
-    </div>
-</footer>
+    
+          </footer>
+
+</div>>
   </body>
 </html>
